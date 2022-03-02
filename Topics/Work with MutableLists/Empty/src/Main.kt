@@ -1,0 +1,1 @@
+val myEmptyList = emptyList<String>()

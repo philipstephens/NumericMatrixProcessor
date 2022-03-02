@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: <pre>invoke Exception("Error")</pre>
+- text: <pre>invoke new Exception("Error")</pre>
+- text: <pre>produce Exception("Error")</pre>
+- text: <pre>produce new Exception("Error")</pre>
+- text: <pre>raise Exception("Error")</pre>
+- text: <pre>raise new Exception("Error")</pre>
+- text: <pre>throw Exception("Error")</pre>
+- text: <pre>throw new Exception("Error")</pre>
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7602#comment
+status: Solved
+record: -1
